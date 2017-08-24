@@ -11,6 +11,7 @@
 
 #import "AppDelegate.h"
 #import "DemoListViewController.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @interface AppDelegate ()
 
@@ -20,6 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BuddyBuildSDK setup];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     DemoListViewController *vc = [[DemoListViewController alloc] init];

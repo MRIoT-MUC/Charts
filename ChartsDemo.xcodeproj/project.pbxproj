@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0439A3541C9FF95F00496F83 /* PiePolylineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439A3521C9FF95F00496F83 /* PiePolylineChartViewController.m */; };
 		0471CBFC1CA1090A00E52DBC /* PiePolylineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0471CBFB1CA1090A00E52DBC /* PiePolylineChartViewController.xib */; };
+		1180DE3EDB497275D11B781E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFBB83E108B19C78E6FD646 /* CoreMedia.framework */; };
+		319E17B4EC256BCA048A7A05 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC86446CBB3E81CAD6CC73B /* BuddyBuildSDK.framework */; };
+		40D59E0CFE0E6ECC83B58478 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76CD85A231E83DFB564AD26 /* QuartzCore.framework */; };
 		55E356501ADC638F00A57971 /* BubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E3564D1ADC638F00A57971 /* BubbleChartViewController.xib */; };
 		55E356511ADC638F00A57971 /* BubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E3564F1ADC638F00A57971 /* BubbleChartViewController.m */; };
 		5B0CC7851ABB875400665592 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CC7831ABB875400665592 /* PieChartViewController.m */; };
@@ -82,7 +85,13 @@
 		5BEAED3C1ABC199F0013F194 /* ColoredLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3A1ABC199F0013F194 /* ColoredLineChartViewController.xib */; };
 		5BEAED401ABC1AC60013F194 /* SinusBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */; };
 		5BEAED411ABC1AC60013F194 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */; };
+		83D20857F718EBC2EA052A82 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7A4852803423FB382F95C2 /* AVFoundation.framework */; };
+		ADC35AE1997E0D80A9A6728B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844401889DC9EA60118CAE7F /* SystemConfiguration.framework */; };
 		C0FC38A839CB11AD7B0C6656 /* Pods_ChartsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B6988CD4A0501640AA142D /* Pods_ChartsDemo.framework */; };
+		E53E6E043252B0069CD3E72D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610B9FA1945A9C709BF58F8E /* CoreText.framework */; };
+		E67462FCE84AAD28096E7DC6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2A0A027FFD4F7544358CBF /* CoreTelephony.framework */; };
+		F1917933A679144D51AF8600 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDF477541659382635EF094 /* AssetsLibrary.framework */; };
+		F781DE597CA4F2D441A0FCDC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08B02212882639D679C5D46 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -102,6 +111,8 @@
 		0439A3511C9FF95F00496F83 /* PiePolylineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiePolylineChartViewController.h; sourceTree = "<group>"; };
 		0439A3521C9FF95F00496F83 /* PiePolylineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiePolylineChartViewController.m; sourceTree = "<group>"; };
 		0471CBFB1CA1090A00E52DBC /* PiePolylineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiePolylineChartViewController.xib; sourceTree = "<group>"; };
+		0DFBB83E108B19C78E6FD646 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3F7A4852803423FB382F95C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		55E3564D1ADC638F00A57971 /* BubbleChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleChartViewController.xib; sourceTree = "<group>"; };
 		55E3564E1ADC638F00A57971 /* BubbleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleChartViewController.h; sourceTree = "<group>"; };
 		55E3564F1ADC638F00A57971 /* BubbleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleChartViewController.m; sourceTree = "<group>"; };
@@ -207,9 +218,16 @@
 		5BEAED3D1ABC1AC60013F194 /* SinusBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinusBarChartViewController.h; sourceTree = "<group>"; };
 		5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinusBarChartViewController.m; sourceTree = "<group>"; };
 		5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
+		610B9FA1945A9C709BF58F8E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		844401889DC9EA60118CAE7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8FDF477541659382635EF094 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		A6AD12AC1DB4E7B92DE18ED8 /* Pods-ChartsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A76CD85A231E83DFB564AD26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B1BB6DC8DA0785BC64CF952F /* Pods-ChartsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC86446CBB3E81CAD6CC73B /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		D8B6988CD4A0501640AA142D /* Pods_ChartsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2A0A027FFD4F7544358CBF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F08B02212882639D679C5D46 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +236,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0FC38A839CB11AD7B0C6656 /* Pods_ChartsDemo.framework in Frameworks */,
+				319E17B4EC256BCA048A7A05 /* BuddyBuildSDK.framework in Frameworks */,
+				F1917933A679144D51AF8600 /* AssetsLibrary.framework in Frameworks */,
+				E53E6E043252B0069CD3E72D /* CoreText.framework in Frameworks */,
+				E67462FCE84AAD28096E7DC6 /* CoreTelephony.framework in Frameworks */,
+				ADC35AE1997E0D80A9A6728B /* SystemConfiguration.framework in Frameworks */,
+				40D59E0CFE0E6ECC83B58478 /* QuartzCore.framework in Frameworks */,
+				83D20857F718EBC2EA052A82 /* AVFoundation.framework in Frameworks */,
+				1180DE3EDB497275D11B781E /* CoreMedia.framework in Frameworks */,
+				F781DE597CA4F2D441A0FCDC /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +460,15 @@
 			isa = PBXGroup;
 			children = (
 				D8B6988CD4A0501640AA142D /* Pods_ChartsDemo.framework */,
+				CDC86446CBB3E81CAD6CC73B /* BuddyBuildSDK.framework */,
+				8FDF477541659382635EF094 /* AssetsLibrary.framework */,
+				610B9FA1945A9C709BF58F8E /* CoreText.framework */,
+				DF2A0A027FFD4F7544358CBF /* CoreTelephony.framework */,
+				844401889DC9EA60118CAE7F /* SystemConfiguration.framework */,
+				A76CD85A231E83DFB564AD26 /* QuartzCore.framework */,
+				3F7A4852803423FB382F95C2 /* AVFoundation.framework */,
+				0DFBB83E108B19C78E6FD646 /* CoreMedia.framework */,
+				F08B02212882639D679C5D46 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -741,6 +777,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.munichre.chartsDemo;
@@ -764,6 +804,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.munichre.chartsDemo;
